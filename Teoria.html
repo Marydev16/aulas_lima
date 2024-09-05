@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        /* Seletor universal */
+        * {
+            margin: 0;
+        }
+        /* Seletor de tipo, aplicando em um tag */
+        p{
+            color:rgb(126, 95, 73);
+    
+        }
+
+        /* Seletor de classe */
+        .paragrafo{
+            background-color:blueviolet;
+            /* margin: 10px; - Aplica em todas as margens*/  
+            /* margin: 10px 40px; - Aplica nas margens 'Laterais' e 'superior e inferior '*/
+            /* margin 10px 20px 30px 40px; aplica margem top, right, bottom, left*/
+            margin-left: 10px;
+        }
+
+        .imagem {
+            width: 150px;
+            height: 100px;
+        }
+    </style>
+</head>
+<!--aplicando css inline cor de fundo -->
+<body style="background-color: rgb(203, 98, 205) "> 
+    Olá Mundo!
+    <!--Titulos de nivel 1 ao 6-->
+    <h1>Desenvolvimento de sitemas</h1>
+    <h1>Cabeçalho de nivel 1</h1>
+    <h2>Cabeçalho de nivel 2</h2>
+    <h3>Cabeçalho de nivel 3</h3>
+    <h4>Cabeçalho de nivel 4</h4>
+    <h5>Cabeçalho de nivel 5</h5>
+    <h6>Cabeçalho de nivel 6</h6>
+
+    <!-- Insere uma linha na horizontal  -->
+    <hr>
+    <!-- A tag 'p' insere um novo parágrafo -->
+     <p>Este é um            a              parágrafo </p>
+    <hr>
+
+    <!-- A tag br quebra uma linha 
+     ela é uma tag sem fechamento     -->
+    <p>Este é um texto muito grande,
+        que eu desejo <br> quebrar a linha</p>
+    <!-- Inserindo um link para 
+     abrir uma página -->
+    <a href="https://www.letras.com/james-arthur/impossible/traducao.html">James Arthur
+    </a>
+
+    <!-- Link com atributo _blank para abrir em outra janela -->
+    <a href="https://www.sp.senai.br/" target="_self" >Senai</a>
+
+    <!-- Tag img para adicionar uma imagem, 
+     o atributo src e preenchido com o caminho  -->
+     <img src="./img/stitch.gif">
+
+     <p>Paragrafo com caracter &lt;br&gt;</p>
+     <p>%reg; &copy; &trade; &euro; &pound; &yen; &cent; &delta; &uarr; </p>
+    
+    <!-- Para inserir emoji use o hexadecimal do site emojipedia.org e o codigo vai depois so &#x -->
+     
+     <p>Inserindo um emoji &#x1F60A &#x2764</p>
+
+     <!-- Tags para formatação e enfatização do texto -->
+      <b>Texto em negrito</b><br>
+      <strong>Texto importante</strong>
+      <h1><i>H1 italico</i>
+      <em>Texto enfatizado</em><br>
+      <mark>Texto Marcado</mark><br>
+      <h3>Texto <small>Menor</small></h3>
+      <del>Texto excluido</del><br>
+      <ins>Texto Inserido </ins>
+      <sub>Texto subscrito</sub>
+     </body>
+</html>
+
+<!--Aplicando link em uma imagem-->
+<a href="https://www.sp.senai.br/"><img src="../img/sesi7.png" alt=""></a>
+
+<p style="font-size: xx-large;">Videos do youtube</p>
+<iframe width="789" height="444" src="https://www.youtube.com/embed/WK2DYp9vK30" title="Tudo sobre O CAVALEIRO DOS SETE REINOS, a nova série de GAME OF THRONES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!--Aplicando css interno-->
+<p class="paragrafo">
+logo do google 
+    <img class="imagem" src="img/stitch.gif" alt="">
+    </p>
+    <hr>
+    <!--Listas-->
+    <!--Listas Ordenadas-->
+    <ol>
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Escovar os dentes</li>
+        <li>Escovar Cabelo</li>
+    <li>Trocar de Roupa</li>
+    <li>Ir para escola no horario</li>
+  </ol><br>
+
+  <!-- Lista ordenada com numero romano minusculo -->
+  <ol type="i">
+    <li>Acordar</li>
+    <li>Tomar banho</li>
+    <li>Escovar Dente</li>
+    <li>Escovar Cabelo</li>
+    <li>Trocar de Roupa</li>
+    <li>Ir para escola no horario</li>
+  </ol><br>
+<!-- Lista ordenada com letras maiusculas -->
+<ol type="A">
+    <li>Acordar</li>
+    <li>Tomar banho</li>
+    <li>Escovar Dente</li>
+    <li>Escovar Cabelo</li>
+    <li>Trocar de Roupa</li>
+    <li>Ir para escola no horario</li>
+  </ol>
+  <br>
+  <!-- Lista não ordenada -->
+  </ul>
+  <li>Carvão</li>
+  <li>Carne</li>
+  <li>Bebidas</li>
+  <li>Arroz</li>
+  </ul>
+  <br>
+  <!-- Lista dentro de lista -->
+   <ul>
+    <li>Carne
+        <ul> 
+            <li>Picanha</li>
+            <li>Cupim</li>
+            <li>Ponta de peito</li>
+        </ul> 
+    </li>
+</ul>
+
+<!-- Lista predefinida -->
+    <dl>
+        <dl>HTML</dl>
+        <dl>Linguagem de marcação para conteudo de um site</dl>
+        <dl>CSS</dl>
+        <dl>Linguagem de estilização do Site</dl>
+        <dl>Javascript</dl>
+        <dl>Linguagem de programação</dl>
+    </dl>
+    </body>
+</html>
+ 
