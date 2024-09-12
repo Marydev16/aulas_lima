@@ -1,0 +1,9 @@
+.tabela-classificacao {
+    /* congigura o formato da borda
+    Expessura, tipo e cor */
+    border: 2px solid #123;
+    /* define o espamento interno */
+    padding: 5px;
+    text-align: center;
+    color:black; 
+}
