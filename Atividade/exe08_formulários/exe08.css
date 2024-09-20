@@ -1,0 +1,29 @@
+.corpo{
+    background-color: chocolate;
+}
+
+.input-senha{
+    margin-top:20px;
+}
+.formulario{
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    background-color:blueviolet;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.container{
+    border: 2px solid black;
+    /* Limita o tamanho do elemento*/
+    max-width: 400px;
+    margin: 0 auto
+}
+
+.item{
+    background: blue;
+    margin: 5px;
+    text-align: center;
+    color: aliceblue;
+}

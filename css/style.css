@@ -40,3 +40,57 @@ body{
 .cabecalho2 {
    background-color: #52b7f1;
 }
+.input-nome{
+  /*remove a borda do elemento */
+  border: nome;
+  border-radius: 5px;
+  margin-left: 50px;
+  /* define a opacidade do elemento */
+  opacity: 70%;
+}
+.botao{
+  background-color:aqua;
+  border: nome;
+  border-radius: 5px;
+  padding: 6px;
+  font-family: Verdana, Geneva, Tahoma, Sans-serif
+  font-size: medium;
+  /* aplica sombra no texto posição x,y, blur e o rgba que aplica com opacidade */
+  text-shadow: 11px 1px 4px rgba(212, 14, 57, 0.9);
+}
+.checar{
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  /* modifica o tipo de cursor*/
+  cursor: pointer;
+  /* zerar as configurações de aperecia */
+  appearance: nome;
+  background-color: aliceblue;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+}
+.checar:checked{
+   background-color: #4caf50;
+
+}
+
+.email{
+  width: 300px;
+  padding: 5px 5px;
+  margin-left: 5px;
+  border: 2px solid #f9f9f9;
+}
+
+.selecao{
+  appearance: 300px;
+  width: 300px;
+  padding: 4px;
+  font-size: 16px;
+  color:#123;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  cursor: pointer;
+  /* sombra no input */
+  box-shadow: 0 2 px 5px rgba(0, 0, 0, 0.8);
+}
