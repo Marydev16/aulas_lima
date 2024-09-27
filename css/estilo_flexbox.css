@@ -18,7 +18,7 @@
     margin-top:20px;
 }
 .formulario{
-    width: 200px;
+    width: 300px;
     height: 150px;
     margin: 0 auto;
     background-color:blueviolet;
@@ -30,7 +30,7 @@
     border: 2px solid black;
     /* Limita o tamanho do elemento*/
     max-width: 400px;
-    margin: 0 auto
+    margin: 0 auto;
     /* Define o tamanho do elemento e o espaço entre eles */
     display: flex;
 }
@@ -41,3 +41,129 @@
     text-align: center;
     color: aliceblue;
 }
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.secao{
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    /* Coloca um espaço entre os elementos */
+    gap: 10px;
+}
+
+.secao-imagem{
+    width: 200px;
+    height: 300px;
+}
+
+.alinhar{
+    display: flex;
+    flex-direction: row;
+    /* Alinha os elementos ao inicio */
+    justify-content: flex-start;
+}
+.alinhar-centro{
+    display: flex;
+    flex-direction: row;
+    /* alinha os elementos ao centro */
+    justify-content: center;
+}
+.alinhar-direita{
+    display: flex;
+    flex-direction: row;
+    /* Aloca os elementos */
+}
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;/*Adiciona scroll na horizontal*/
+    gap: 0.4rem;
+    height: 500px;
+}
+.card{
+    width: 300px;
+    height: 250px;
+    flex: 0 0 auto;/*Evita que os cards encolham ou se ajustam automaticamente*/
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba (0,0,0,0.4);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+    /*serve para criar um efeito hover, mudando a posição do card*/
+    transform: translateY(-5);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.6)
+}
+
+.cabecalho-card{
+    padding: 10px;
+    text-align: center;
+}
+.titulo-card{
+    margin: 0;
+    font-size: 1.5rem;
+    color:#333;
+}
+
+.subtitulo-card{
+    margin: 0;
+    font-size: 1rem;
+    color:#777;
+}
+
+.imagem-card{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagem-card > img{
+    max-width: 100%; /*Mantem o limite maximo do tamanho do container */
+    height: 200px; /*mantem a proporção da imagem*/
+}
+
+.imagem-card > figcaption{
+    font-size: 0.8rem;
+    padding: 8px;
+    text-align: center;
+    color: #555
+}
+
+.conteudo-card{
+    padding: 10px;
+    background-color: rgb(241, 191, 228);
+    text-align: center;
+}
+
+.rodape-card{
+    background-color: rgb(252, 250, 249);
+    text-align: center;
+    padding: 6px;
+}
+
+.botao-card{
+    text-decoration: none;/*remove a decoração de linha*/
+    color: aliceblue;
+    background-color: brown;
+    border-radius: 4px;
+    padding: 5px 6px;
+    /*Permite definir largura e altura, alinha
+    elementos na mesma linha */
+    display: inline-block;
+}
+.botao-card:hover{
+    background-color: brown;
+    width: 150px;
+}
+
+
+
