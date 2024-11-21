@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/styles.css">
+
+{
+    margin: 0;
+    padding: 0;
+    /*Assegura que padding e margin sejam
+    incluidos nas dimensoes totais do elemento*/
+    box-sizing: border-box;
+}
+body{
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    font-family: Teko;
+    font-size: 2.2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    max-width: 1120px;
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
